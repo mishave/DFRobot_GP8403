@@ -11,7 +11,7 @@
 '''
 from __future__ import print_function
 import sys
-import smbus
+import smbus2 as smbus
 import time
 import datetime
 import RPi.GPIO as GPIO
